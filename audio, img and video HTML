@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aprendiendo imagenes, audio y video en HTML</title>
+	</head>
+    <body>
+		<div>
+<h1>Aprendiendo a utilizar imagenes</h1>
+<img src="https://m.media-amazon.com/images/M/MV5BMTAyYWYyOTMtNmUzNS00NzNjLTkyZTUtZjhlZjMzYzJmNzM5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg" alt="GTA San Andreas" height="400" width="400">
+        </div>
+		<div>
+<h1>Aprendiendo a utilizar los videos</h1>
+    <video width="300" height="300" controls muted loop>
+	<source src="video.mp4" type="video/mp4">
+    </video>
+        </div>
+        <div>
+<h1>Aprendiendo a utilizar los audios</h1>
+<audio controls autoplay loop>
+<source src="music3.mp3" type="audio/mp3">
+</audio>
+        </div>
+    </body>
+</html>
