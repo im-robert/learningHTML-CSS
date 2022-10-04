@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Disposicion de elementos en HTML</title>
+</head>
+<body>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehEFe7Ro8YzPivscaRz-X6yFgwXlCydzuxw&usqp=CAU" alt="Fondo de Twenty One Pilots">
+</body>
+</html>
+
+
+
+
+img {
+    width: 300px;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
