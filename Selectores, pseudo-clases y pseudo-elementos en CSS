@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css"> 
+	<title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+</head>
+<body>
+	<button>Pasa por encima</button>
+	
+</body>
+</html>
+
+
+
+
+ button:hover{
+    color:azure;
+    background-color: rgb(30, 210, 59); 
+    transition: .1s;
+    }
