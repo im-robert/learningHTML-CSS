@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Elementos de interes en bootstrap</title>
+</head>
+
+<body>
+  <div class="container">
+  <ul class="nav nav-pills mb-3 py-5 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Jumbotron</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Formulario</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Tarjeta</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Proximamente...</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> 
+      <div class="container">
+        <div class="bg-light py-5 rounded-4">
+            <div class="container-fluid py-6">
+                <h1 class="display-7">Custom Jumbotron</h1>
+                <p class="col-6"> Este es un Jumbotron de ejemplo para la practica del modulo 12 del curso de HTML y CSS con Bootstrap. Este es un Jumbotron de ejemplo para la practica del modulo 12 del curso de HTML y CSS con Bootstrap. Este es un Jumbotron de ejemplo para la practica del modulo 12 del curso de HTML y CSS con Bootstrap.Este es un Jumbotron de ejemplo para la practica del modulo 12 del curso de HTML y CSS con Bootstrap.</p>
+                
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Press Here!
+                  </button>
+            
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Este es un modal</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Advertencia!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-success">Guardar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="form-nombre" placeholder="Nombre">
+        <label for="form-nombre">Nombre</label>
+    </div>
+
+    <div class=" form-floating mb-3">
+        <input type="number" class="form-control" id="form-numero" placeholder="Telefono">
+        <label for="form-numero" class="form-label">Telefono</label>
+    </div>
+
+    <div class=" form-floating mb-3">
+        <textarea class="form-control" id="form-texto" rows="3" placeholder="Introduzca un texto"></textarea>
+        <label for="form-texto" class="form-label">Introduzca un texto</label>
+      </div>
+    
+    <div> 
+        <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+      <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Celcics parquet">
+        <div class="card-body">
+          <h5 class="card-title">Roberto Capellan</h5>
+          <p class="card-text"> Estudiante de desarrollo de software de 18 años, dominicano. Me gusta el basket, ver series y escuchar rap.</p>
+          <footer class="card-text">capellan1603@gmail.com</footer>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0"></div>
+  </div>
+  </div> 
+</body>
+</html>
